@@ -1,0 +1,67 @@
+body{
+    /* background-image:url(../assests/BGimages4.jpg); */
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c5ecbc, #7bf063);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c4e9ba, #7eeba2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.head1::first-line{
+    color: #109f3b93;
+  text-shadow: 4px 4px 4px #fce3e393;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #19b619;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-log {
+    right: auto;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.desc{
+    color: darkgreen;
+    font-size: 18px;
+    text-shadow: 1px 0px 0px rgb(0, 0, 0);
+}
+strong{
+    color: blueviolet;
+    font-weight: 600;
+    text-shadow:none;
+}
+.contacus{
+    font-size: 20px;
+    font-family: cursive;
+
+}
